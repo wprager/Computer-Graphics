@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CS184 :: Foundations of Computer Graphics :: Wesley Prager</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+
+	<div id="sidebar">
+		<div id="home"><a href="index.html">Home</a></div>
+		<div id="hw0"><a href="hw0.html">Homework 0</a></div>
+		<div id="hw1"><a href="hw1.html">Homework 1</a></div>
+		<div id="hw2"><a href="hw2.html">Homework 2</a></div>
+		<div id="hw3"><a href="hw3.html">Homework 3</a></div>
+		<div id="hw4"><a href="hw4.html">Homework 4</a></div>
+		<div id="hw5"><a href="hw5.html">Homework 5</a></div>
+		<div id="hw6"><a href="hw6.html">Homework 6</a></div>
+	</div>
+	
+	<h1>Homework 5</h1>
+	
+	<div id="text">
+		
+		<p>In this assignment, we had to write a simple <a target="_blank" href="http://en.wikipedia.org/wiki/Ray_tracing_(graphics)">raytracer</a>. The program takes a text file on input, and raytraces the scene with all its objects, lighting, and transforms to produce the image. We had to calculate where the rays intersected the various objects, and also calculate the shading from the lights. This included <a target="_blank" href="http://en.wikipedia.org/wiki/Ray_tracing_(graphics)#Reversed_direction_of_traversal_of_scene_by_the_rays">recursive raytracing</a> to accurately show reflections. We also used basic <a target="_blank" href="http://en.wikipedia.org/wiki/OpenMP">OpenMP</a> parallelism to improve the speed of the raytracer.</p>
+		
+		<h3>Milestone</h3>
+		
+		<div id="indent1">
+			<p>Test scene 2 (scaled):</p><img src="imgs/hw5.0.png" alt="scene2" />
+			<p><br /><br />
+				Test scene 3 (translated and rotated):</p><img src="imgs/hw5.1.png" alt="scene3" />
+		</div>
+		
+		<h3>Final</h3>
+			<p><a target="_blank" href="Raytracer.zip">Source Code</a></p>
+		
+		<div id="indent2">
+			<p>Test scene 4 (using only the <a target="_blank" href="http://en.wikipedia.org/wiki/Shading#Ambient_lighting">ambient</a>):</p><img src="imgs/hw5.2.png" alt="scene4_ambient" />
+			<p><br /><br />
+				Test scene 4 (using only the <a target="_blank" href="http://en.wikipedia.org/wiki/Diffuse_reflection">diffuse</a>):</p><img src="imgs/hw5.3.png" alt="scene4_diffuse" />
+			<p><br /><br />
+				Test scene 4 (using only the <a target="_blank" href="http://en.wikipedia.org/wiki/List_of_light_sources">emission</a>):</p><img src="imgs/hw5.4.png" alt="scene4_emission" />
+			<p><br /><br />
+				Test scene 4 (using only the <a target="_blank" href="http://en.wikipedia.org/wiki/Specular_highlight">specular</a>):</p><img src="imgs/hw5.5.png" alt="scene4_specular" />
+			<p><br /><br />
+				Test scene 5 (contains 1,000 spheres):</p><img src="imgs/hw5.6.png" alt="scene5" />
+			<p><br /><br />
+				Test scene 6 (demonstrates shadowing and reflections):</p><img src="imgs/hw5.7.png" alt="scene6" />
+			<p><br /><br />
+				Test scene 7 (contains 100,000 polygons):</p><img src="imgs/hw5.8.png" alt="scene7" />
+			<p><br /><br />
+				Handwritten scene: demonstrates most implemented aspects (transformations, lighting, shadow, reflection, <a target="_blank" href="http://en.wikipedia.org/wiki/Et_cetera">etc</a>.):</p><img src="imgs/hw5.9.png" alt="handmade_scene" />
+		</div>
+		
+		<div id="footer">This project in collaboration with: <a target="_blank" href="http://inst.cs.berkeley.edu/~cs184-bj/">Graham Tremper</a>.</div>
+	</div>
+	
+
+
+</body>
+
+</html>

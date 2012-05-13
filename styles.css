@@ -1,0 +1,97 @@
+body {
+	background-image: url(imgs/bkd.jpg);
+	background-repeat: repeat-y;
+	background-color: #faf8cc;
+	font-family: monospace;
+}
+
+h1 {
+	position: absolute;
+	top: 10px;
+	left: 150px;
+}
+
+a {
+	color: #242300;
+	text-decoration: none;
+}
+
+a:active {
+	outline: 0;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a:visited {
+	outline: 0;
+}
+
+#sidebar {
+	width: 100px;
+	text-align: center;
+	font-size: small;
+}
+
+#home {
+	position: relative;
+	top: 20px;
+}
+
+#hw0 {
+	position: relative;
+	top: 70px;
+}
+
+#hw1 {
+	position: relative;
+	top: 120px;
+}
+
+#hw2 {
+	position: relative;
+	top: 170px;
+}
+
+#hw3 {
+	position: relative;
+	top: 220px;
+}
+
+#hw4 {
+	position: relative;
+	top: 270px;
+}
+
+#hw5 {
+	position: relative;
+	top: 320px;
+}
+
+#hw6 {
+	position: relative;
+	top: 370px;
+}
+
+#text {
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	margin-right: 25px;
+}
+
+#indent1, #indent2 {
+	position: relative;
+	left: 50px;
+	margin-right: 25px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 81%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
